@@ -14,18 +14,8 @@
     <input type="submit" value="Check" id="button" class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded float: left ml-3">
     <div id="display_answer" class="border-blue-light border-2px border-solid mt-10 p-6 bg-blue-lighter font-bold font-serif text-lg text-grey-darkest text-center text-4xl shadow-md"></div>
   </div>  
-   <script src="../src/js/fizz-buzz.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        let button = document.getElementById('button')
-        let displayDiv = document.getElementById('display_answer')
-        button.addEventListener('click', () =>{
-          let value = document.getElementById('value').value
-          let fizzBuzz = new FizzBuzz
-          let result = fizzBuzz.check(value)
-          displayDiv.innerHTML = result;
-        })
-      })
+   <script src="./src/js/fizz-buzz.js"></script>
+    <script src="./src/js/script.js">
     </script>
 </body>
 </html>
