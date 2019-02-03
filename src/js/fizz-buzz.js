@@ -12,5 +12,3 @@ function FizzBuzz()  {
         }
     }
 }
-
-FizzBuzz()
