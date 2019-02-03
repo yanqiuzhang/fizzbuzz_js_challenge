@@ -41,5 +41,3 @@ Question 8. Write a line to line explanation of what is happening in this code
  
 Question 9. Explain what a CDN (Content Delivery Network) is?
   A content delivery network (CDN) is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server. This service is effective in speeding the delivery of content of websites with high traffic and websites that have global reach. The closer the CDN server is to the user geographically, the faster the content will be delivered to the user. CDNs also provide protection from large surges in traffic.
- 
-
